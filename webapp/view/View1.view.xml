@@ -1,0 +1,75 @@
+<mvc:View controllerName="project1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    	xmlns:core="sap.ui.core"
+     xmlns:comp="sap.ui.comp"
+     xmlns:sfb="sap.ui.comp.smartfilterbar"
+    xmlns="sap.m">
+    <!-- <Page id="page" title="{i18n>title}"> -->
+    <Page id="page" title="View1">
+        <!-- <content /> -->
+    
+
+        <!-- <VBox id="mvbox" class="sapUiSmallMargin"> -->
+    <HBox id="hbox" class="left-right-layout">
+     <!-- /* justifyContent="SpaceBetween"> */ -->
+        <!-- Header Facet -->
+        <VBox id="hvbox" class="left-section"> 
+        <!-- /* class="sapUiSmallMarginEnd"> */ -->
+            <!-- <Image id="himg" src="{/imageUrl}" width="50px" height="50px" alt="Object Image"/>
+            <Title id="htlt" text="{/title}" level="H1" class="headerTitle"/>
+            <Text id="htxt1" text="{/subTitle}" class="headerSubtitle"/>
+            <Text id="htht2" text="{/description}" class="headerDescription"/> -->
+            <!-- <Image id="himg" src="{/imageUrl}" width="50px" height="50px" alt="Object Image"/> -->
+            <Title id="htlt" text="Vbox title" level="H1" class="headerTitle"/>
+            <Text id="htxt1" text="Vbox sub title" class="headerSubtitle"/>
+            <Text id="htht2" text="description" class="headerDescription"/>
+        </VBox>
+        <!-- </HBox>
+         <HBox id="hbox1" justifyContent="End"> -->
+        <VBox id="hvbox1" class="left-section sapUiMediumMargin"> 
+        <!-- /* class="sapUiSmallMarginEnd" justifyContent="End"> */ -->
+            <Title id="htlt1" text="Vbox title" level="H1" class="headerTitle"/>
+            <Text id="htxt11" text="Vbox sub title" class="headerSubtitle"/>
+            <Label id="lbl1" text="Second facet"/>
+        </VBox>
+        <VBox id="hvbox2" class="right-section"> 
+        <!-- /* class="sapUiSmallMarginEnd" justifyContent="End"> */ -->
+            <Title id="htlt2" text="Vbox title" level="H1" class="headerTitle"/>
+            <Text id="htxt12" text="Vbox sub title" class="headerSubtitle"/>
+            <Label id="lbl2" text="Third facet"/>
+        </VBox>
+        <VBox id="hvbox3" class="right-section">
+         <!-- /* class="sapUiSmallMarginEnd" justifyContent="End"> */ -->
+            <Title id="htlt3" text="Vbox title" level="H1" class="headerTitle"/>
+            <Text id="htxt13" text="Vbox sub title" class="headerSubtitle"/>
+            <Label id="lbl3" text="Fourth facet"/>
+        </VBox>
+        
+        <!-- Additional Content (e.g., description, details) -->
+        <!-- <Text id="text1" text="Some other content goes here."/> -->
+    </HBox>
+    <sfb:SmartFilterBar
+    id="smartFilterBar" >
+        <sfb:controlConfiguration>
+            <sfb:ControlConfiguration id="idname" visibleInAdvancedArea="true" label="Customer Name" key="customerId" />
+        </sfb:controlConfiguration>
+  
+    </sfb:SmartFilterBar>
+    <!-- </VBox/> -->
+    <!-- Global Search below the header -->
+        <SearchField id="GS"
+            placeholder="Search for products..."
+            liveChange="onSearch"   
+            width="40%"  
+            showSearchButton="true" /> <!-- Show search button -->
+
+     <!-- Customer List -->
+  <List id="listcust" items="{jsonModel>/customers}" itemPress="onCustomerPress1">
+    <StandardListItem id="stlstcust"
+      title="{jsonModel>name}"
+      description="{jsonModel>email}"
+      type="Active"
+      press="onCustomerPress" />
+  </List>
+    </Page>
+</mvc:View>

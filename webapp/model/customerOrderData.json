@@ -1,0 +1,351 @@
+{
+  "customers": [
+    {
+      "customerId": "C001",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "zip": "10001",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O001",
+          "orderDate": "2024-10-10",
+          "totalAmount": 150.75,
+          "items": [
+            {
+              "itemId": "I001",
+              "product": "Laptop",
+              "quantity": 1,
+              "price": 1000.00,
+              "total": 1000.00
+            },
+            {
+              "itemId": "I002",
+              "product": "Mouse",
+              "quantity": 1,
+              "price": 25.00,
+              "total": 25.00
+            }
+          ]
+        },
+        {
+          "orderId": "O002",
+          "orderDate": "2024-10-15",
+          "totalAmount": 50.00,
+          "items": [
+            {
+              "itemId": "I003",
+              "product": "Headphones",
+              "quantity": 2,
+              "price": 25.00,
+              "total": 50.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C002",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "address": {
+        "street": "456 Oak Rd",
+        "city": "Los Angeles",
+        "zip": "90001",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O003",
+          "orderDate": "2024-10-05",
+          "totalAmount": 200.00,
+          "items": [
+            {
+              "itemId": "I004",
+              "product": "Smartphone",
+              "quantity": 1,
+              "price": 200.00,
+              "total": 200.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C003",
+      "name": "Mark Johnson",
+      "email": "mark.johnson@example.com",
+      "address": {
+        "street": "789 Maple Ave",
+        "city": "San Francisco",
+        "zip": "94101",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O004",
+          "orderDate": "2024-10-12",
+          "totalAmount": 500.00,
+          "items": [
+            {
+              "itemId": "I005",
+              "product": "Tablet",
+              "quantity": 1,
+              "price": 400.00,
+              "total": 400.00
+            },
+            {
+              "itemId": "I006",
+              "product": "Keyboard",
+              "quantity": 1,
+              "price": 100.00,
+              "total": 100.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C004",
+      "name": "Sarah Lee",
+      "email": "sarah.lee@example.com",
+      "address": {
+        "street": "101 Pine St",
+        "city": "Chicago",
+        "zip": "60601",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O005",
+          "orderDate": "2024-10-20",
+          "totalAmount": 120.00,
+          "items": [
+            {
+              "itemId": "I007",
+              "product": "Smartwatch",
+              "quantity": 1,
+              "price": 120.00,
+              "total": 120.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C005",
+      "name": "David Brown",
+      "email": "david.brown@example.com",
+      "address": {
+        "street": "202 Birch Blvd",
+        "city": "Austin",
+        "zip": "73301",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O006",
+          "orderDate": "2024-10-08",
+          "totalAmount": 450.00,
+          "items": [
+            {
+              "itemId": "I008",
+              "product": "Bluetooth Speaker",
+              "quantity": 2,
+              "price": 150.00,
+              "total": 300.00
+            },
+            {
+              "itemId": "I009",
+              "product": "Phone Case",
+              "quantity": 1,
+              "price": 25.00,
+              "total": 25.00
+            },
+            {
+              "itemId": "I010",
+              "product": "Charging Cable",
+              "quantity": 1,
+              "price": 25.00,
+              "total": 25.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C006",
+      "name": "Emily Davis",
+      "email": "emily.davis@example.com",
+      "address": {
+        "street": "303 Cedar St",
+        "city": "Seattle",
+        "zip": "98101",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O007",
+          "orderDate": "2024-10-02",
+          "totalAmount": 350.00,
+          "items": [
+            {
+              "itemId": "I011",
+              "product": "Monitor",
+              "quantity": 1,
+              "price": 300.00,
+              "total": 300.00
+            },
+            {
+              "itemId": "I012",
+              "product": "Stand",
+              "quantity": 1,
+              "price": 50.00,
+              "total": 50.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C007",
+      "name": "Michael Wilson",
+      "email": "michael.wilson@example.com",
+      "address": {
+        "street": "404 Elm St",
+        "city": "Miami",
+        "zip": "33101",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O008",
+          "orderDate": "2024-10-09",
+          "totalAmount": 240.00,
+          "items": [
+            {
+              "itemId": "I013",
+              "product": "Gaming Mouse",
+              "quantity": 2,
+              "price": 60.00,
+              "total": 120.00
+            },
+            {
+              "itemId": "I014",
+              "product": "Mousepad",
+              "quantity": 1,
+              "price": 20.00,
+              "total": 20.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C008",
+      "name": "Olivia Martin",
+      "email": "olivia.martin@example.com",
+      "address": {
+        "street": "505 Maple Rd",
+        "city": "Denver",
+        "zip": "80202",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O009",
+          "orderDate": "2024-10-03",
+          "totalAmount": 180.00,
+          "items": [
+            {
+              "itemId": "I015",
+              "product": "Laptop Bag",
+              "quantity": 1,
+              "price": 80.00,
+              "total": 80.00
+            },
+            {
+              "itemId": "I016",
+              "product": "External Hard Drive",
+              "quantity": 1,
+              "price": 100.00,
+              "total": 100.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C009",
+      "name": "James Lee",
+      "email": "james.lee@example.com",
+      "address": {
+        "street": "606 Ash Dr",
+        "city": "Dallas",
+        "zip": "75201",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O010",
+          "orderDate": "2024-10-13",
+          "totalAmount": 220.00,
+          "items": [
+            {
+              "itemId": "I017",
+              "product": "Smartphone Case",
+              "quantity": 2,
+              "price": 20.00,
+              "total": 40.00
+            },
+            {
+              "itemId": "I018",
+              "product": "Power Bank",
+              "quantity": 1,
+              "price": 180.00,
+              "total": 180.00
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customerId": "C010",
+      "name": "Sophia White",
+      "email": "sophia.white@example.com",
+      "address": {
+        "street": "707 Birch Ave",
+        "city": "Boston",
+        "zip": "02101",
+        "country": "USA"
+      },
+      "orders": [
+        {
+          "orderId": "O011",
+          "orderDate": "2024-10-17",
+          "totalAmount": 300.00,
+          "items": [
+            {
+              "itemId": "I019",
+              "product": "Smartwatch",
+              "quantity": 1,
+              "price": 200.00,
+              "total": 200.00
+            },
+            {
+              "itemId": "I020",
+              "product": "Wireless Charger",
+              "quantity": 1,
+              "price": 100.00,
+              "total": 100.00
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

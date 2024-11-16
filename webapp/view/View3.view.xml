@@ -1,0 +1,32 @@
+<mvc:View controllerName="project1.controller.View3"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+     xmlns:comp="sap.ui.comp"
+    xmlns="sap.m">
+   <Page id="page3" showNavButton="true"
+    navButtonPress="onNavBack">
+   <Text id="text3" text="View3"></Text>
+
+   <!-- <Table id="tbd" items="{jsonModel>/customers/0/orders}">
+    <columns>
+      <Column id="cl1">
+        <Text id="ttx4" text="Order ID" />
+      </Column>
+      <Column id="cl2">
+        <Text id="ttx5" text="Order Date" />
+      </Column>
+      <Column id="cl3">
+        <Text id="ttx6" text="Total Amount" />
+      </Column>
+    </columns>
+    <items>
+      <ColumnListItem id="cli">
+        <cells>
+          <Text id="ttx1" text="{jsonModel>orderId}" />
+          <Text id="ttx2" text="{jsonModel>orderDate}" />
+          <Text id="ttx3" text="{jsonModel>totalAmount}" />
+        </cells>
+      </ColumnListItem>
+    </items>
+  </Table> -->
+   </Page>
+</mvc:View>

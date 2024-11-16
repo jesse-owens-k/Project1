@@ -1,0 +1,30 @@
+/* Enter your custom styles here */
+/* Flex container for left and right alignment */
+.left-right-layout {
+    display: flex;
+    justify-content: left; /* Distribute space between left and right sections */
+    align-items: center; /* Vertically center the items */
+    width: 100%; /* Ensure the layout takes up the full width of the container */
+}
+
+/* Left section (items aligned to the left) */
+.left-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items at the top */
+    flex-grow: 1; /* Allow this section to take up available space */
+}
+
+/* Right section (items aligned to the right) */
+.right-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items at the top */
+    flex-grow: 1; /* Allow this section to take up available space */
+    text-align: right; /* Align text to the right */
+}
+
+/* Optional: Styling for items */
+.leftItem, .rightItem {
+    margin-bottom: 10px; /* Add spacing between items */
+}
